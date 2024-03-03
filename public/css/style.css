@@ -70,13 +70,15 @@ a {
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
+	height: 580px;
 }
 
 .chat-sidebar h2 {
 	font-size: 20px;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.12);
 	padding: 10px;
 	margin-bottom: 20px;
+	color:var(--light-color)
 }
 
 .chat-sidebar h3 {
@@ -194,4 +196,71 @@ a {
 	.chat-sidebar {
 		display: none;
 	}
+}
+
+
+/* classmate popup */
+.pop{
+	max-width: 500px;
+	margin: 60px auto;
+	position:fixed;
+	top: -80%;
+	left: 70%;
+	transform: translate (-50%,-50%) scale(0.001);
+	text-align: center;
+	padding: 30 30px 30px;
+	background-color: var(--dark-color-b);
+	visibility: hidden;
+	align-items: center;
+	justify-content: center;
+	box-shadow: #777;
+}
+
+.pop h3 {
+	font-size: 13px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.pop ul {
+	font-size: 11px;
+}
+
+.pop button {
+	scale: 70%;
+	box-shadow: #777;
+}
+
+.open-pop{
+	visibility: visible;
+	top: 50%;
+	transform: translate (-50%,-50%); 
+	scale:170%;
+}
+
+.butt{
+	width: 50px;
+	height: 26px;
+	background: var(--dark-color-a);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor:pointer;
+	border-radius: 50%;
+	scale: 200%;
+	border: 0;
+	box-shadow: #777;
+}
+
+.rounded-button{
+	width: 25px;
+	height: 25px;
+	background: var(--dark-color-a);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor:pointer;
+	border-radius: 50%;
+	scale: 100%;
 }
