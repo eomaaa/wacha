@@ -218,8 +218,18 @@ a {
 
 .phrug img{
 	max-width: 200px;
+	width: auto;
 	height: auto;
 	justify-content:center;
+	position: relative;
+	right: 8px;
+}
+
+.wardrobe img {
+	max-width: 200px;
+	width: auto;
+	height: auto;
+	justify-content: center;
 	position: relative;
 	right: 8px;
 }
