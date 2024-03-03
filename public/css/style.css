@@ -59,6 +59,14 @@ a {
 	justify-content: space-between;
 }
 
+.chat-header h1 {
+	text-align: center;
+	align-items: center;
+	justify-content:center;
+	position:absolute;
+	left: 40%;
+}
+
 .chat-main {
 	display: grid;
 	grid-template-columns: 250px 750px auto;
@@ -104,6 +112,15 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--dark-color-b);
 	border-radius: 8px;
+}
+
+.chat-messages .message .img {
+	border-radius: 50% 50%;
+	max-width: 80px;
+	max-height: 80px;
+	width: auto;
+	height: auto;
+	float: right;
 }
 
 .chat-messages .message .meta {
@@ -200,7 +217,7 @@ a {
 }
 
 .phrug img{
-	width: 200px;
+	max-width: 200px;
 	height: auto;
 	justify-content:center;
 	position: relative;
